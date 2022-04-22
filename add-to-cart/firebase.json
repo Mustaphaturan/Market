@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist\\add-to-cart",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
